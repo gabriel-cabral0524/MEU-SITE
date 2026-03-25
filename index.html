@@ -93,7 +93,78 @@
                 </figure>
                 <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
             </section>
+            <!--Tabela de pontuação-->
+            <section>
+                <h2>Tabela de pontuação</h2>
+               <table border="1">
+                <thead>
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>               
+                    <tr>
+                        <td>0-2</td>
+                        <td>Não desista! Cada tentativa é uma oportunidade de você aprender</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Você ainda precisa melhorar. Que tal estudar mais sobre programação</td>
+                    </tr>
+                    <tr>
+                        <td>5-7</td>
+                        <td>Bom! Seu conhecimento em programação está satisfatorio</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Perfeito! Você está muito informado sobre programação</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte na próxima! Estude mais para melhorar</td>
+                    </tr>
+                </tfoot>
+               </table>
+            </section>
+            <!--Lista de respostas-->
+            <section>
+                <h2>Verifique suas respostas</h2>
+                <details>
+                    <summary>Clique aqui para ver as respostas do quiz</summary> 
+                    <ol>
+                        <li>HTML</li>
+                        <li>Domínio</li>
+                        <li>ab23!kao#LJKJ</li>
+                        <li>1991</li>
+                        <li>JavaScript, Java</li>
+                        <li>Arquivo deve ter extensão .html</div></li>
+                        <li>type</li>
+                        <li>Java</li>
+                    </ol>
+                </details>
+            </section>
+            <!--Formulario de feedback-->
+            <section>
+                <h2>Nos de o seu feedback</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informações de contato</legend>
+                        <label for="name">Nome:</label><br>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="comments">Comments:</label><br>
+                        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Digite seus comentarios aqui"></textarea><br>
+                        <button onclick="alert('feedback enviado')">Envie o feedback</button>
+                    </fieldset>
+                </form>
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+            <p>&copy Quiz de programadores. Todos os direitos reservados</p>
+            <p>Para conhecer mais sobre mim <a href="sobremim.html" target="_blank">clique aqui</a></p>
+        </footer>
     </body>
 </html>
