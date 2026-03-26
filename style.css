@@ -63,3 +63,91 @@ select {
     outline: none;
 }
 
+img {
+    width: 5rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #CCD595;
+    color: #331F19;
+    padding: 1rem;
+}
+
+td {
+    color: #331F19;
+    padding: 1rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #331F19;
+    color: #F4F0EA;
+}
+
+details {
+    background-color: #CCD595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #331F19;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #CCD595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #331F19;
+    padding: 0 0.5rem;
+}
+
+textarea {
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #CCD595;
+    background-color: #CCD595;
+}
+
+button {
+    background-color: #CCD595;
+    border: none;
+    padding: 0.8rem;
+    color: #331F19;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #331F19;
+    padding: 2rem;
+    text-align: center;
+}
+
+.paragrafo-footer {
+    color: #F4F0EA;
+}
+
+footer a {
+    text-decoration: none;
+    color: #CCD595;
+}
